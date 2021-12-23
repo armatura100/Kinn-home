@@ -1,0 +1,36 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+button, input, textarea, select {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+th, optgroup {
+	font-weight: inherit;
+}
+
+input, button, textarea, select, option {
+	font: inherit;
+	color: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+}
