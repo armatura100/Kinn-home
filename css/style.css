@@ -4,6 +4,7 @@ body {
 	font-weight: 400;
 	line-height: 25px;
 	color: #56593D;
+	overflow-x: hidden;
 }
 
 .container {
@@ -12,6 +13,9 @@ body {
 	margin: 0 auto;
 }
 
+.no-scroll {
+	overflow-y: hidden;
+}
 
 /* ============== Header ================ */
 
@@ -129,7 +133,7 @@ body {
 	padding: 16px 25px;
 	background: #56593D;
 	transition: background .3s,
-					color .3s;
+		color .3s;
 }
 
 .intro__btn:hover {
@@ -212,7 +216,7 @@ body {
 
 .product__item-img {
 	max-width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	transition: transform .3s;
 }
 
@@ -311,7 +315,7 @@ body {
 	font-family: 'Jost', sans-serif;
 	font-size: 20px;
 	line-height: 32px;
-	
+
 	max-width: 347px;
 	margin: 0 auto;
 }
@@ -352,6 +356,8 @@ body {
 	background: transparent;
 	border-bottom: 1px solid #56593D;
 	padding: 3px;
+
+	transition: box-shadow .2s;
 }
 
 .form__input:focus {
@@ -367,7 +373,7 @@ body {
 	cursor: pointer;
 
 	transition: background .3s,
-					color .3s;
+		color .3s;
 }
 
 .form__btn:hover {

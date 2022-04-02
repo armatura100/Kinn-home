@@ -5,6 +5,7 @@ const menuLinks = document.querySelectorAll('.menu__link');
 menuBtn.addEventListener('click', () => {
 	menu.classList.toggle('menu--active');
 	menuBtn.classList.toggle('open');
+	document.body.classList.toggle('no-scroll');
 });
 
 menuLinks.forEach(e => {
